@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="imagenes/iconotrombonmaestro.ico" type="image/x-icon">
+    <title>Formulario Inicio sesion</title>
+</head>
+<body class="page1">
+    <header>
+        <h1 class="titulo-principal">LOGIN</h1>
+    </header>
+    
+    <form id="loginForm" action="logica/registrar.php" method="post">
+        <h1>Iniciar Sesión</h1>
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+
+        <br>
+
+        <br>
+        <div>
+            <button type="submit">Iniciar Sesión</button>
+        </div>
+    </form>
+    <script src="validarinicio.js"></script>
+</body>
+</html>
