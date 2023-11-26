@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="estilocatalogo.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Productos</h1>
+    </header>
+    <main>
+        <section id="catalogo">
+            <h2>Productos Disponibles</h2>
+<!-- Agrega una etiqueta <img> para cada producto en el catálogo -->
+<ul id="producto-lista">
+    <li class="producto">
+        <img src="imagenes/producto1.png" clear="rigth" alt="150" width="160" height="150" alt="Producto 1">
+        <div class="producto-info">
+            <span class="producto-nombre">Acetatos</span>
+            <span class="producto-precio">$25.000</span>
+            <button class="producto-seleccionar">Seleccionar</button>
+        </div>
+    </li>
+    <li class="producto">
+        <img src="imagenes/producto 2.jpg" clear="rigth" alt="150" width="160" height="150" alt="Producto 2">
+        <div class="producto-info">
+            <span class="producto-nombre">Bolsillo para laminacion</span>
+            <span class="producto-precio">$30.000</span>
+            <button class="producto-seleccionar">Seleccionar</button>
+        </div>
+    </li>
+    <!-- Agrega más productos aquí -->
+</ul>
+
+        </section>
+        
+        
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-lista">
+                <!-- Los productos seleccionados se agregarán aquí -->
+            </ul>
+            <div id="total-carrito">
+                <h3>Total:</h3>
+                <span id="total-precio">$0.000</span>
+            </div>
+            <button id="proceder-pago" src="file:///C:/Users/bayke/Documents/Evidencias%20Brando%20Ni%C3%B1o/interfaz%20grafica%20FAEL/Metodos%20de%20pago/metodosdepago.html">Proceder al Pago</button>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="http://localhost/evidencias/CRUD/pagina.html">Inicio</a></li>
+                <li><a href="#">Acerca de FAEL</a></li>
+            </ul>
+        </nav>
+        <div id="contacto">
+            <h3>Contacto</h3>
+            <p>Teléfono: <a href="tel:+123456789">322-237-5027</a></p>
+        </div>
+        <div id="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/tuempresa" target="_blank"><img src="Imagenes/facebook logo.png" clear="rigth" alt="50" width="50" height="50" alt="Facebook"></a></li>
+                <li><a href="https://wa.me/123456789" target="_blank"><img src="Imagenes/whatsapp logo.png" clear="rigth" alt="50" width="50" height="50" alt="WhatsApp"></a></li>
+                <li><a href="https://www.instagram.com/tuempresa" target="_blank"><img src="Imagenes/inta logo.png" clear="rigth" alt="50" width="50" height="50" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="catalogojs.js"></script>
+    <script src="metodosdepago.js"></script>
+</body>
+</html> 
+ 
